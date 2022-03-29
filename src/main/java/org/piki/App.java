@@ -8,7 +8,7 @@ public class App {
         }
     }
 
-    public static int fibonacci(int n) {
+    public static long fibonacci(int n) {
         if (n <= 2) return 1;
 
         long a = 1, b = 1;
